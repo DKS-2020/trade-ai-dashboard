@@ -1,46 +1,135 @@
-# Global Trade Intelligence Dashboard
+# 🌍 Global Trade AI Dashboard
 
-This project turns a basic trade analysis notebook into a cleaner final-year project demo using `Streamlit`.
+## 📌 Overview
+The Global Trade AI Dashboard is an interactive data analytics and machine learning system designed to analyze and predict international trade flows. The project integrates data visualization with predictive modeling to provide meaningful insights into global trade patterns.
 
-## What it includes
+---
 
-- Interactive filtering by year, reporter country, partner country, and trade flow
-- KPI cards for fast summary insight
-- Trend, ranking, heatmap, and distribution charts
-- A prediction page for estimating trade value from year and country pair
-- A presentation-friendly project framing section
+## 🎯 Objectives
+- Analyze historical international trade data  
+- Identify trends and country-to-country trade relationships  
+- Detect anomalies and significant changes in trade flow  
+- Predict future trade values using machine learning models  
 
-## Dataset
+---
 
-The app expects a CSV with these required columns:
+## 🚀 Features
 
-- `Year`
-- `ReporterName`
-- `PartnerName`
-- `TradeValue in 1000 USD`
+### 📊 Interactive Dashboard
+- Dynamic filtering by Year, Reporter Country, Partner Country, and Trade Flow  
+- Real-time updates of charts and insights  
 
-Optional:
+### 📈 Data Analysis
+- Trade value trends over time  
+- Country-wise trade comparison  
+- Reporter vs Partner heatmap  
+- Trade distribution visualization  
 
-- `TradeFlowName`
+### 🤖 Machine Learning Module
+- Trade value prediction using:
+  - Random Forest Regressor  
+  - LightGBM  
+- Future forecasting up to 2030  
+- Actual vs Predicted comparison  
 
-## Run locally
+### 🧠 AI Insights
+- Automated summary of trade patterns  
+- Identification of dominant trade corridors  
+- Anomaly detection in trade data  
+- Key insights for decision-making  
 
-1. Place your dataset in the same folder as `app.py` and name it `trade_1988_2021.csv`
-2. Or upload the CSV from the sidebar after the app starts
-3. Install dependencies:
+### 📉 Model Evaluation
+- Mean Absolute Error (MAE)  
+- Root Mean Squared Error (RMSE)  
+- R² Score  
+- Model comparison and best model selection  
 
-```bash
+---
+
+## 🛠️ Technology Stack
+- Python  
+- Streamlit  
+- Pandas, NumPy  
+- Scikit-learn  
+- LightGBM  
+- Matplotlib, Seaborn
+
+---
+
+
+## 📂 Project Structure
+
+.
+├── app.py
+├── requirements.txt
+├── trade_1988_2021.csv
+├── README.md
+
+
+---
+
+## 📊 Dataset
+The application uses a dataset containing international trade records.
+
+**Required Columns:**
+- Year  
+- ReporterName  
+- PartnerName  
+- TradeValue in 1000 USD  
+
+**Optional Column:**
+- TradeFlowName  
+
+---
+
+## ⚙️ Installation and Execution
+
+### 1. Clone the Repository
+
+git clone https://github.com/DKS-2020/trade-ai-dashboard.git
+
+cd trade-ai-dashboard
+
+
+### 2. Install Dependencies
+
 pip install -r requirements.txt
-```
 
-4. Start the app:
 
-```bash
+### 3. Run the Application
+
 streamlit run app.py
-```
 
-## Presentation angle
 
-Use this as a dashboard-driven analytics project, not only as a machine learning notebook. A stronger pitch is:
+---
 
-`An interactive system for analyzing international trade patterns and estimating country-to-country trade value.`
+## 🎯 Applications
+- Economic and trade analysis  
+- Policy and strategic decision-making  
+- Academic and research projects  
+- Machine learning and data visualization demonstrations  
+
+---
+
+## 🔮 Future Scope
+- Integration of real-time trade data  
+- Advanced AI and deep learning models  
+- Deployment on cloud platforms  
+- Enhanced explainable AI features  
+
+---
+
+## 👨‍💻 Contributors
+- Deepak Kumar Singh (Team Lead)  
+- Aniket Sharma  
+- Abhishek Pratap Singh  
+- Atharva Deshmukh  
+
+---
+
+## ⭐ Conclusion
+This project provides an integrated platform for analyzing and forecasting gl
+
+---
+
+## 📂 Project Structure
