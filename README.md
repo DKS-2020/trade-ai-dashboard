@@ -126,10 +126,3 @@ streamlit run app.py
 - Atharva Deshmukh  
 
 ---
-
-## ⭐ Conclusion
-This project provides an integrated platform for analyzing and forecasting gl
-
----
-
-## 📂 Project Structure
