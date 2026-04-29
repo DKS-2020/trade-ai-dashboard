@@ -1115,9 +1115,13 @@ with model_tab:
         pred_flow,
         scenario_name,
     )
+
+    if "Estimated Trade Value" not in projection_curve.columns:
+        projection_curve["Estimated Trade Value"] = y_pred
+
     projection_curve["DisplayValue"] = convert_trade_series(
         projection_curve["Estimated Trade Value"], display_currency
-    )
+)
     fig = px.line(
         projection_curve,
         x="Year",
